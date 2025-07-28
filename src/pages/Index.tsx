@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Separator } from '@/components/ui/separator';
 import { Link } from 'react-router-dom';
+import { IMAGE_PATHS } from '@/constants/IMAGE_PATHS';
 
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState("about");
@@ -16,8 +17,12 @@ export default function HomePage() {
         <div className="container mx-auto py-4 px-4">
           <div className="flex justify-between items-center">
             <a href="/" className="flex items-center space-x-2">
-              <div className="w-40 h-14 bg-blue-50 flex items-center justify-center text-center">
-                <span className="font-bold text-blue-900 text-lg">IGLO TOURS & TRAVEL</span>
+              <div className="w-40 h-14 relative">
+                <img 
+                  src={IMAGE_PATHS.logo} 
+                  alt="IGLO TOURS & TRAVEL"
+                  className="w-full h-full object-contain text-color-green-600"
+                />
               </div>
             </a>
             <nav className="hidden md:flex items-center space-x-6">

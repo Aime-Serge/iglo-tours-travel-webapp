@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { DatePicker } from "@/components/ui/date-picker";
 
-export default function CarRentalPage() {
+export function CarRentalPage() {
   const [activeTab, setActiveTab] = useState("cars");
 
   return (
@@ -24,7 +24,7 @@ export default function CarRentalPage() {
               </span>
               <div className="flex flex-col">
                 <span className="text-xs text-gray-600">Email Address</span>
-                <a href="mailto:travel@iglotours.com" className="text-sm font-medium">travel@iglotours.com</a>
+                <a href="mailto:travel@iglotours.com" className="text-sm font-medium">iglotourstravel@gmail.com</a>
               </div>
             </div>
             <div className="flex items-center space-x-2">
