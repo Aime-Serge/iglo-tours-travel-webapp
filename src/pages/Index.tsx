@@ -10,35 +10,7 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
-      {/* Header with contact info */}
-      <div className="bg-gray-100 py-2 px-4 hidden md:block">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="flex items-center space-x-6">
-            <div className="flex items-center space-x-2">
-              <span className="text-blue-600 text-sm">
-                <i className="fas fa-envelope"></i>
-              </span>
-              <div className="flex flex-col">
-                <span className="text-xs text-gray-600">Email Address</span>
-                <a href="mailto:travel@iglotours.com" className="text-sm font-medium">travel@iglotours.com</a>
-              </div>
-            </div>
-            <div className="flex items-center space-x-2">
-              <span className="text-blue-600 text-sm">
-                <i className="fas fa-phone"></i>
-              </span>
-              <div className="flex flex-col">
-                <span className="text-xs text-gray-600">Phone contact</span>
-                <a href="tel:+250788306892" className="text-sm font-medium">+(250) 788 306 892</a>
-              </div>
-            </div>
-          </div>
-          <div>
-            <Button variant="ghost" size="sm">Login / Register</Button>
-          </div>
-        </div>
-      </div>
-
+      {/* Header with contact info */}    
       {/* Navigation */}
       <header className="bg-white border-b sticky top-0 z-50">
         <div className="container mx-auto py-4 px-4">
@@ -451,7 +423,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <h5 className="font-medium">Email</h5>
-                    <p className="text-gray-600">travel@iglotours.com</p>
+                    <p className="text-gray-600">iglotourstravel.com</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
