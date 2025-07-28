@@ -15,34 +15,7 @@ export function CarRentalPage() {
   return (
     <div className="flex flex-col min-h-screen bg-white">
       {/* Header with contact info */}
-      <div className="bg-gray-100 py-2 px-4 hidden md:block">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="flex items-center space-x-6">
-            <div className="flex items-center space-x-2">
-              <span className="text-blue-600 text-sm">
-                <i className="fas fa-envelope"></i>
-              </span>
-              <div className="flex flex-col">
-                <span className="text-xs text-gray-600">Email Address</span>
-                <a href="mailto:travel@iglotours.com" className="text-sm font-medium">iglotourstravel@gmail.com</a>
-              </div>
-            </div>
-            <div className="flex items-center space-x-2">
-              <span className="text-blue-600 text-sm">
-                <i className="fas fa-phone"></i>
-              </span>
-              <div className="flex flex-col">
-                <span className="text-xs text-gray-600">Phone contact</span>
-                <a href="tel:+250788306892" className="text-sm font-medium">+(250) 788 306 892</a>
-              </div>
-            </div>
-          </div>
-          <div>
-            <Button variant="ghost" size="sm">Login / Register</Button>
-          </div>
-        </div>
-      </div>
-
+    
       {/* Navigation */}
       <header className="bg-white border-b sticky top-0 z-50">
         <div className="container mx-auto py-4 px-4">
@@ -69,7 +42,7 @@ export function CarRentalPage() {
 
       {/* Hero Section */}
       <section className="relative bg-blue-900 text-white py-16">
-        <div className="absolute inset-0 bg-cover bg-center opacity-40" style={{ backgroundImage: "url('/assets/images/destinations/images /images/Serenity.jpg')" }}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-40" style={{ backgroundImage: "url('/assets/images/LargeSUV.jpg')" }}></div>
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-indigo-900/80 z-0"></div>
         <div className="container mx-auto px-4 z-10 relative">
           <div className="max-w-3xl mx-auto text-center">
@@ -560,7 +533,7 @@ export function CarRentalPage() {
                 </li>
                 <li className="flex items-center space-x-2">
                   <span className="text-yellow-400"><i className="fas fa-envelope"></i></span>
-                  <span>travel@iglotours.com</span>
+                  <span>iglotourstravel@gmail.com</span>
                 </li>
               </ul>
             </div>

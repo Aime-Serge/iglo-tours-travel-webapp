@@ -28,7 +28,7 @@ export default function HomePage() {
             <nav className="hidden md:flex items-center space-x-6">
               <a href="/" className="font-medium text-blue-600">Home</a>
               <Link to="/tours" className="font-medium hover:text-blue-600">Tours</Link>
-              <a href="#car-rental" className="font-medium hover:text-blue-600">Car Rental</a>
+              <Link to="/car-rental" className="font-medium hover:text-blue-600">Car Rental</Link>
               <a href="#destination" className="font-medium hover:text-blue-600">Destination</a>
               <a href="#about" className="font-medium hover:text-blue-600">About Us</a>
               <a href="#contact" className="font-medium hover:text-blue-600">Contact Us</a>
