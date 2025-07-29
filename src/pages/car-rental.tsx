@@ -142,7 +142,7 @@ export function CarRentalPage() {
                       <Card>
                         <div className="h-48 bg-gray-100">
                           <img 
-                            src="/assets/images/destinations/images /images/EconomyCar.jpg" 
+                            src="https://i.pinimg.com/1200x/4d/48/0c/4d480c6a0df8a37cbbfd8f0d84b62618.jpg" 
                             alt="Economy Car" 
                             className="h-full w-full object-cover" 
                           />
@@ -180,7 +180,7 @@ export function CarRentalPage() {
                       <Card>
                         <div className="h-48 bg-gray-100">
                           <img 
-                            src="/assets/images/destinations/images /images/Sedan.jpg" 
+                            src="https://i.pinimg.com/736x/78/62/4e/78624e2ff86c993b95ec6f991d10dcdc.jpg" 
                             alt="Sedan" 
                             className="h-full w-full object-cover" 
                           />
@@ -223,7 +223,7 @@ export function CarRentalPage() {
                       <Card>
                         <div className="h-48 bg-gray-100">
                           <img 
-                            src="/assets/images/destinations/images /images/SUV.jpg" 
+                            src="https://i.pinimg.com/1200x/08/ec/81/08ec81fb0bd97f2d90ecc9b1480741a2.jpg" 
                             alt="SUV" 
                             className="h-full w-full object-cover" 
                           />
@@ -261,7 +261,7 @@ export function CarRentalPage() {
                       <Card>
                         <div className="h-48 bg-gray-100">
                           <img 
-                            src="/assets/images/destinations/images /images/LargeSUV.jpg" 
+                            src="https://i.pinimg.com/1200x/c8/c5/a6/c8c5a664ed9f29d07fec57ecaef6ddb8.jpg" 
                             alt="Large SUV" 
                             className="h-full w-full object-cover" 
                           />
@@ -342,7 +342,7 @@ export function CarRentalPage() {
                       <Card>
                         <div className="h-48 bg-gray-100">
                           <img 
-                            src="/assets/images/destinations/download.jpeg" 
+                            src="https://i.pinimg.com/1200x/e1/75/81/e17581dbe09184e1d7658e000135b7da.jpg" 
                             alt="Land Cruiser Safari" 
                             className="h-full w-full object-cover" 
                           />
