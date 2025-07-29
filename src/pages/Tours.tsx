@@ -271,8 +271,9 @@ export default function ToursPage() {
                         </AccordionContent>
                       </AccordionItem>
                     </Accordion>
-                    
+                    <a href="Components/forms/TourInquiryForm.tsx">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
+                    </a>
                   </CardContent>
                 </Card>
 
@@ -364,8 +365,9 @@ export default function ToursPage() {
                         </AccordionContent>
                       </AccordionItem>
                     </Accordion>
-                    
+                    <a href="Components/forms/TourInquiryForm.tsx">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
+                    </a>       
                   </CardContent>
                 </Card>
 
@@ -392,8 +394,9 @@ export default function ToursPage() {
                         <p className="font-bold">Game drives, Bird watching</p>
                       </div>
                     </div>
-                    
+                    <a href="Components/forms/TourInquiryForm.tsx">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
+                    </a>
                   </CardContent>
                 </Card>
               </div>
@@ -526,7 +529,7 @@ export default function ToursPage() {
                 </li>
                 <li className="flex items-center space-x-2">
                   <span className="text-yellow-400"><i className="fas fa-envelope"></i></span>
-                  <span>travel@iglotours.com</span>
+                  <span>iglotourstravel@gmail.com</span>
                 </li>
               </ul>
             </div>

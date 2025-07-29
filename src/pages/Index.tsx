@@ -95,6 +95,7 @@ export default function HomePage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Tour cards with images */}
+            <Link to="/tours">
             <Card className="overflow-hidden transition-transform hover:transform hover:scale-105 h-full">
               <div className="h-48 bg-gray-300">
                 <img src="/assets/images/destinations/images (1).jpeg" alt="Rwanda" className="h-full w-full object-cover" />
@@ -113,14 +114,15 @@ export default function HomePage() {
                   <span className="text-sm text-gray-600">Rwanda</span>
                 </div>
                 <p className="text-gray-600 mb-4 line-clamp-3 flex-grow">A comprehensive Rwanda experience including gorilla trekking, chimpanzee tracking, game drives, and cultural experiences across the country.</p>
-                <Link to="/tours">
-                  <Button variant="outline" className="w-full mt-auto">
-                    View Details <span className="ml-2">→</span>
+                
+                  <Button variant="outline" className="w-full mt-auto text-color-green-600 text-center text-bold">
+                    "World's most treasured national parks and game reserves" <span className="ml-2"></span>
                   </Button>
-                </Link>
+                
               </CardContent>
             </Card>
-
+</Link>
+<Link to="/tours">
             <Card className="overflow-hidden transition-transform hover:transform hover:scale-105 h-full">
               <div className="h-48 bg-gray-300">
                 <img src="/assets/images/destinations/queen-elizabeth-park-1.jpg" alt="Uganda" className="h-full w-full object-cover" />
@@ -140,13 +142,13 @@ export default function HomePage() {
                 </div>
                 <p className="text-gray-600 mb-4 line-clamp-3 flex-grow">Experience Uganda's incredible wildlife from Murchison Falls to gorilla trekking in Bwindi Impenetrable Forest.</p>
                 <Link to="/tours">
-                  <Button variant="outline" className="w-full mt-auto">
-                    View Details <span className="ml-2">→</span>
+                  <Button variant="outline" className="w-full mt-auto text-color-green-600 text-center text-bold">
+                    "The Pearl of Africa" <span className="ml-2"></span>
                   </Button>
                 </Link>
               </CardContent>
             </Card>
-
+</Link><Link to="/tours">
             <Card className="overflow-hidden transition-transform hover:transform hover:scale-105 h-full">
               <div className="h-48 bg-gray-300">
                 <img src="/assets/images/destinations/images (5).jpeg" alt="Mountain Gorilla" className="h-full w-full object-cover" />
@@ -166,12 +168,12 @@ export default function HomePage() {
                 </div>
                 <p className="text-gray-600 mb-4 line-clamp-3 flex-grow">Experience the majestic mountain gorillas in their natural habitat in Volcanoes National Park.</p>
                 <Link to="/tours">
-                  <Button variant="outline" className="w-full mt-auto">
-                    View Details <span className="ml-2">→</span>
+                  <Button variant="outline" className="w-full mt-auto text-color-green text-center text-bold">
+                    "One Thousands Hills Country" <span className="ml-2"></span>
                   </Button>
                 </Link>
               </CardContent>
-            </Card>
+            </Card></Link>
           </div>
           
           <div className="text-center mt-10">
@@ -391,7 +393,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Contact Section */}
+      s fa-map-marker-a{/* Contact Section */}
       <section id="contact" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center mb-12">
@@ -406,7 +408,7 @@ export default function HomePage() {
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <div className="text-blue-600 mt-1">
-                    <i className="fas fa-map-marker-alt"></i>
+                    <i className="falt"></i>
                   </div>
                   <div>
                     <h5 className="font-medium">Address</h5>
@@ -428,7 +430,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <h5 className="font-medium">Email</h5>
-                    <p className="text-gray-600">iglotourstravel.com</p>
+                    <p className="text-gray-600">iglotourstravel@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
@@ -437,7 +439,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <h5 className="font-medium">Website</h5>
-                    <p className="text-gray-600">iglotours.com</p>
+                    <p className="text-gray-600">iglotourstravel.com</p>
                   </div>
                 </div>
               </div>
@@ -463,7 +465,9 @@ export default function HomePage() {
                   <label className="block mb-1 text-sm font-medium">Message</label>
                   <textarea rows={4} className="w-full p-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"></textarea>
                 </div>
+              
                 <Button className="w-full">Send Message</Button>
+                
               </form>
             </div>
           </div>

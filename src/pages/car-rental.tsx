@@ -171,10 +171,7 @@ export function CarRentalPage() {
                           </div>
                           
                           <div className="flex items-baseline justify-between border-t pt-4">
-                            <div>
-                              <span className="text-lg font-bold">$45</span>
-                              <span className="text-sm text-gray-500"> / day</span>
-                            </div>
+                            
                             <Button variant="outline">Select</Button>
                           </div>
                         </CardContent>
@@ -212,10 +209,7 @@ export function CarRentalPage() {
                           </div>
                           
                           <div className="flex items-baseline justify-between border-t pt-4">
-                            <div>
-                              <span className="text-lg font-bold">$65</span>
-                              <span className="text-sm text-gray-500"> / day</span>
-                            </div>
+                          
                             <Button variant="outline">Select</Button>
                           </div>
                         </CardContent>
@@ -258,10 +252,7 @@ export function CarRentalPage() {
                           </div>
                           
                           <div className="flex items-baseline justify-between border-t pt-4">
-                            <div>
-                              <span className="text-lg font-bold">$85</span>
-                              <span className="text-sm text-gray-500"> / day</span>
-                            </div>
+                            
                             <Button variant="outline">Select</Button>
                           </div>
                         </CardContent>
@@ -299,10 +290,7 @@ export function CarRentalPage() {
                           </div>
                           
                           <div className="flex items-baseline justify-between border-t pt-4">
-                            <div>
-                              <span className="text-lg font-bold">$120</span>
-                              <span className="text-sm text-gray-500"> / day</span>
-                            </div>
+                          
                             <Button variant="outline">Select</Button>
                           </div>
                         </CardContent>
@@ -345,10 +333,7 @@ export function CarRentalPage() {
                           </div>
                           
                           <div className="flex items-baseline justify-between border-t pt-4">
-                            <div>
-                              <span className="text-lg font-bold">$150</span>
-                              <span className="text-sm text-gray-500"> / day</span>
-                            </div>
+        
                             <Button variant="outline">Select</Button>
                           </div>
                         </CardContent>
@@ -386,10 +371,7 @@ export function CarRentalPage() {
                           </div>
                           
                           <div className="flex items-baseline justify-between border-t pt-4">
-                            <div>
-                              <span className="text-lg font-bold">$180</span>
-                              <span className="text-sm text-gray-500"> / day</span>
-                            </div>
+                            
                             <Button variant="outline">Select</Button>
                           </div>
                         </CardContent>
