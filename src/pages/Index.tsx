@@ -18,11 +18,12 @@ export default function HomePage() {
           <div className="flex justify-between items-center">
             <a href="/" className="flex items-center space-x-2">
               <div className="w-40 h-14 relative">
-                <img 
-                  src={IMAGE_PATHS.logo} 
+                     <img src={IMAGE_PATHS.logo} 
                   alt="IGLO TOURS & TRAVEL"
-                  className="w-full h-full object-contain text-color-green-600"
+                  className="w-full h-full object-contain"
                 />
+                 
+                  
               </div>
             </a>
             <nav className="hidden md:flex items-center space-x-6">
@@ -116,7 +117,7 @@ export default function HomePage() {
                 <p className="text-gray-600 mb-4 line-clamp-3 flex-grow">A comprehensive Rwanda experience including gorilla trekking, chimpanzee tracking, game drives, and cultural experiences across the country.</p>
                 
                   <Button variant="outline" className="w-full mt-auto text-color-green-600 text-center text-bold">
-                    "World's most treasured national parks and game reserves" <span className="ml-2"></span>
+                   "One Thousands Hills Country" <span className="ml-2"></span>
                   </Button>
                 
               </CardContent>
@@ -169,7 +170,7 @@ export default function HomePage() {
                 <p className="text-gray-600 mb-4 line-clamp-3 flex-grow">Experience the majestic mountain gorillas in their natural habitat in Volcanoes National Park.</p>
                 <Link to="/tours">
                   <Button variant="outline" className="w-full mt-auto text-color-green text-center text-bold">
-                    "One Thousands Hills Country" <span className="ml-2"></span>
+                     "World's most treasured national parks and game reserves" <span className="ml-2"></span>
                   </Button>
                 </Link>
               </CardContent>

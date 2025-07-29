@@ -12,34 +12,7 @@ export default function ToursPage() {
   return (
     <div className="flex flex-col min-h-screen bg-white">
       {/* Header with contact info */}
-      <div className="bg-gray-100 py-2 px-4 hidden md:block">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="flex items-center space-x-6">
-            <div className="flex items-center space-x-2">
-              <span className="text-blue-600 text-sm">
-                <i className="fas fa-envelope"></i>
-              </span>
-              <div className="flex flex-col">
-                <span className="text-xs text-gray-600">Email Address</span>
-                <a href="mailto:travel@iglotours.com" className="text-sm font-medium">travel@iglotours.com</a>
-              </div>
-            </div>
-            <div className="flex items-center space-x-2">
-              <span className="text-blue-600 text-sm">
-                <i className="fas fa-phone"></i>
-              </span>
-              <div className="flex flex-col">
-                <span className="text-xs text-gray-600">Phone contact</span>
-                <a href="tel:+250788306892" className="text-sm font-medium">+(250) 788 306 892</a>
-              </div>
-            </div>
-          </div>
-          <div>
-            <Button variant="ghost" size="sm">Login / Register</Button>
-          </div>
-        </div>
-      </div>
-
+      
       {/* Navigation */}
       <header className="bg-white border-b sticky top-0 z-50">
         <div className="container mx-auto py-4 px-4">
@@ -193,6 +166,9 @@ export default function ToursPage() {
                         </AccordionContent>
                       </AccordionItem>
                     </Accordion>
+                    <Link to="/TourInquiryForm">
+                    <Button className="mt-6 w-full">Enquire About This Tour</Button>
+                    </Link>
                   </CardContent>
                 </Card>
               </div>
@@ -271,7 +247,7 @@ export default function ToursPage() {
                         </AccordionContent>
                       </AccordionItem>
                     </Accordion>
-                    <a href="Components/forms/TourInquiryForm.tsx">
+                    <a href="/components/forms/TourInquiryForm.tsx">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
                     </a>
                   </CardContent>
@@ -300,8 +276,10 @@ export default function ToursPage() {
                         <p className="font-bold">Game drives, Boat cruise on Kazinga Channel</p>
                       </div>
                     </div>
-                    
+                    <a href="/omponents/forms/TourInquiryForm.tsx">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
+                    </a>
+                    
                   </CardContent>
                 </Card>
               </div>
@@ -347,7 +325,11 @@ export default function ToursPage() {
                             After breakfast, depart Nairobi for the Masai Mara National Reserve, arriving in time for lunch at your lodge. In the afternoon, embark on your first game drive in one of Africa's greatest wildlife reserves. The Masai Mara is famous for its exceptional population of lions, leopards, cheetahs and the annual wildebeest migration.<br />
                             <span className="font-medium">Overnight:</span> Lodge/Camp of your choice in Masai Mara (Full board)
                           </p>
+                          <a href="/components/forms/TourInquiryForm.tsx">
+                    <Button className="mt-6 w-full">Enquire About This Tour</Button>
+                    </a>
                         </AccordionContent>
+                        
                       </AccordionItem>
                       
                       <AccordionItem value="day2">
@@ -365,7 +347,7 @@ export default function ToursPage() {
                         </AccordionContent>
                       </AccordionItem>
                     </Accordion>
-                    <a href="Components/forms/TourInquiryForm.tsx">
+                    <a href="/components/forms/TourInquiryForm.tsx">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
                     </a>       
                   </CardContent>
@@ -394,7 +376,7 @@ export default function ToursPage() {
                         <p className="font-bold">Game drives, Bird watching</p>
                       </div>
                     </div>
-                    <a href="Components/forms/TourInquiryForm.tsx">
+                    <a href="/components/forms/TourInquiryForm.tsx">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
                     </a>
                   </CardContent>
@@ -460,8 +442,10 @@ export default function ToursPage() {
                         </AccordionContent>
                       </AccordionItem>
                     </Accordion>
-                    
+                    <a href="/omponents/forms/TourInquiryForm.tsx">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
+                    </a>
+                    
                   </CardContent>
                 </Card>
 
@@ -488,8 +472,9 @@ export default function ToursPage() {
                         <p className="font-bold">Game drives, Cultural experiences</p>
                       </div>
                     </div>
-                    
+                    <a href="/components/forms/TourInquiryForm.tsx">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
+                    </a>
                   </CardContent>
                 </Card>
               </div>
