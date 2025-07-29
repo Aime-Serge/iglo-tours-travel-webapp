@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { IMAGE_PATHS } from '@/constants/IMAGE_PATHS';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from '@/components/ui/separator';
@@ -20,11 +21,14 @@ export function CarRentalPage() {
       <header className="bg-white border-b sticky top-0 z-50">
         <div className="container mx-auto py-4 px-4">
           <div className="flex justify-between items-center">
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="w-40 h-14 bg-blue-50 flex items-center justify-center text-center">
-                <span className="font-bold text-blue-900 text-lg">IGLO TOURS & TRAVEL</span>
-              </div>
-            </Link>
+            <a href="/" className="flex items-center space-x-2">
+                          <div className="w-40 h-14 relative">
+                                 <img src={IMAGE_PATHS.logo} 
+                              alt="IGLO TOURS & TRAVEL"
+                              className="w-full h-full object-contain"
+                            />
+                          </div>
+                        </a>
             <nav className="hidden md:flex items-center space-x-6">
               <Link to="/" className="font-medium hover:text-blue-600">Home</Link>
               <Link to="/tours" className="font-medium hover:text-blue-600">Tours</Link>
@@ -226,7 +230,7 @@ export function CarRentalPage() {
                             src="https://i.pinimg.com/1200x/08/ec/81/08ec81fb0bd97f2d90ecc9b1480741a2.jpg" 
                             alt="SUV" 
                             className="h-full w-full object-cover" 
-                          />
+                          />2
                         </div>
                         <CardContent className="p-4">
                           <h3 className="text-xl font-bold mb-2">Toyota RAV4 or similar</h3>
@@ -304,7 +308,7 @@ export function CarRentalPage() {
                       <Card>
                         <div className="h-48 bg-gray-100">
                           <img 
-                            src="/assets/images/destinations/images /images/Safari.jpg" 
+                            src="https://i.pinimg.com/1200x/19/3b/00/193b00f3861cfef9ca578c801f34fe5c.jpg" 
                             alt="Safari Van" 
                             className="h-full w-full object-cover" 
                           />
