@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Link } from 'react-router-dom';
+import { IMAGE_PATHS } from '@/constants/IMAGE_PATHS';
 
 export default function ToursPage() {
   const [activeTab, setActiveTab] = useState("rwanda");
@@ -18,9 +19,13 @@ export default function ToursPage() {
         <div className="container mx-auto py-4 px-4">
           <div className="flex justify-between items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <div className="w-40 h-14 bg-blue-50 flex items-center justify-center text-center">
-                <span className="font-bold text-blue-900 text-lg">IGLO TOURS & TRAVEL</span>
-              </div>
+                            <div className="w-40 h-14 relative">
+                                   <img src={IMAGE_PATHS.logo} 
+                                alt="IGLO TOURS & TRAVEL"
+                                className="w-full h-full object-contain"
+                              />    
+                            </div>
+                         
             </Link>
             <nav className="hidden md:flex items-center space-x-6">
               <Link to="/" className="font-medium hover:text-blue-600">Home</Link>
@@ -68,7 +73,7 @@ export default function ToursPage() {
               <div className="max-w-4xl mx-auto space-y-8">
                 {/* 10 DAYS BEST OF RWANDA */}
                 <Card className="mb-8 overflow-hidden">
-                  <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('/assets/images/destinations/images (1).jpeg')" }}></div>
+                  <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2021/03/03/14/55/rhino-6065480_1280.jpg')" }}></div>
                   <CardContent className="p-6">
                     <h2 className="text-2xl font-bold mb-2">10 DAYS BEST OF RWANDA</h2>
                     <p className="text-gray-600 mb-6">
@@ -166,7 +171,7 @@ export default function ToursPage() {
                         </AccordionContent>
                       </AccordionItem>
                     </Accordion>
-                    <Link to="/TourInquiryForm">
+                    <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
                     </Link>
                   </CardContent>
@@ -179,7 +184,7 @@ export default function ToursPage() {
               <div className="max-w-4xl mx-auto space-y-8">
                 {/* 8 DAY UGANDA CLASSIC SAFARI */}
                 <Card className="mb-8 overflow-hidden">
-                  <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('/assets/images/destinations/queen-elizabeth-park-1.jpg')" }}></div>
+                  <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2018/03/16/11/36/mammal-3230968_640.jpg')" }}></div>
                   <CardContent className="p-6">
                     <h2 className="text-2xl font-bold mb-2">8 DAY UGANDA CLASSIC SAFARI</h2>
                     <p className="text-gray-600 mb-6">
@@ -189,7 +194,7 @@ export default function ToursPage() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
                       <div className="bg-blue-50 p-3 rounded-md">
                         <p className="text-sm font-medium text-gray-600">Duration</p>
-                        <p className="font-bold">8 Days</p>
+                        <p className="font-bold">8 Days</p>2
                       </div>
                       <div className="bg-blue-50 p-3 rounded-md">
                         <p className="text-sm font-medium text-gray-600">Destinations</p>
@@ -247,9 +252,9 @@ export default function ToursPage() {
                         </AccordionContent>
                       </AccordionItem>
                     </Accordion>
-                    <a href="/components/forms/TourInquiryForm.tsx">
+                    <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
-                    </a>
+                    </Link>
                   </CardContent>
                 </Card>
 
@@ -276,10 +281,9 @@ export default function ToursPage() {
                         <p className="font-bold">Game drives, Boat cruise on Kazinga Channel</p>
                       </div>
                     </div>
-                    <a href="/omponents/forms/TourInquiryForm.tsx">
+                    <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
-                    </a>
-                    
+                    </Link>
                   </CardContent>
                 </Card>
               </div>
@@ -325,9 +329,9 @@ export default function ToursPage() {
                             After breakfast, depart Nairobi for the Masai Mara National Reserve, arriving in time for lunch at your lodge. In the afternoon, embark on your first game drive in one of Africa's greatest wildlife reserves. The Masai Mara is famous for its exceptional population of lions, leopards, cheetahs and the annual wildebeest migration.<br />
                             <span className="font-medium">Overnight:</span> Lodge/Camp of your choice in Masai Mara (Full board)
                           </p>
-                          <a href="/components/forms/TourInquiryForm.tsx">
+                        <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
-                    </a>
+                    </Link>
                         </AccordionContent>
                         
                       </AccordionItem>
@@ -347,9 +351,9 @@ export default function ToursPage() {
                         </AccordionContent>
                       </AccordionItem>
                     </Accordion>
-                    <a href="/components/forms/TourInquiryForm.tsx">
+                    <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
-                    </a>       
+                    </Link>     
                   </CardContent>
                 </Card>
 
@@ -376,9 +380,9 @@ export default function ToursPage() {
                         <p className="font-bold">Game drives, Bird watching</p>
                       </div>
                     </div>
-                    <a href="/components/forms/TourInquiryForm.tsx">
+                    <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
-                    </a>
+                    </Link>
                   </CardContent>
                 </Card>
               </div>
@@ -389,7 +393,7 @@ export default function ToursPage() {
               <div className="max-w-4xl mx-auto space-y-8">
                 {/* 5 DAYS SERENGETI & NGORONGORO */}
                 <Card className="mb-8 overflow-hidden">
-                  <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('/assets/images/destinations/images (3).jpeg')" }}></div>
+                  <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2022/09/30/19/42/lion-7490149_1280.jpg')" }}></div>
                   <CardContent className="p-6">
                     <h2 className="text-2xl font-bold mb-2">5 DAYS SERENGETI & NGORONGORO</h2>
                     <p className="text-gray-600 mb-6">
@@ -442,10 +446,9 @@ export default function ToursPage() {
                         </AccordionContent>
                       </AccordionItem>
                     </Accordion>
-                    <a href="/omponents/forms/TourInquiryForm.tsx">
+                    <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
-                    </a>
-                    
+                    </Link>
                   </CardContent>
                 </Card>
 
@@ -472,9 +475,9 @@ export default function ToursPage() {
                         <p className="font-bold">Game drives, Cultural experiences</p>
                       </div>
                     </div>
-                    <a href="/components/forms/TourInquiryForm.tsx">
+                    <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
-                    </a>
+                    </Link>
                   </CardContent>
                 </Card>
               </div>

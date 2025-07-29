@@ -65,7 +65,7 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl mx-auto">
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <img src="/assets/images/destinations/download.jpeg" alt="Safari experience" className="w-full h-64 object-cover" />
+              <img src="https://cdn.pixabay.com/photo/2025/06/06/14/39/mountain-9644976_960_720.jpg" alt="Safari experience" className="w-full h-64 object-cover" />
             </div>
             <div>
               <p className="text-lg mb-6">
@@ -99,7 +99,7 @@ export default function HomePage() {
             <Link to="/tours">
             <Card className="overflow-hidden transition-transform hover:transform hover:scale-105 h-full">
               <div className="h-48 bg-gray-300">
-                <img src="/assets/images/destinations/images (1).jpeg" alt="Rwanda" className="h-full w-full object-cover" />
+                <img src="https://cdn.pixabay.com/photo/2023/01/09/22/03/gorilla-7708328_1280.jpg" alt="Rwanda" className="h-full w-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                   <div className="bg-blue-600 text-white text-sm font-bold px-2 py-1 rounded-sm">
                     10 Days
@@ -152,7 +152,7 @@ export default function HomePage() {
 </Link><Link to="/tours">
             <Card className="overflow-hidden transition-transform hover:transform hover:scale-105 h-full">
               <div className="h-48 bg-gray-300">
-                <img src="/assets/images/destinations/images (5).jpeg" alt="Mountain Gorilla" className="h-full w-full object-cover" />
+                <img src="https://cdn.pixabay.com/photo/2023/01/09/22/03/gorilla-7708328_1280.jpg" alt="Mountain Gorilla" className="h-full w-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                   <div className="bg-blue-600 text-white text-sm font-bold px-2 py-1 rounded-sm">
                     3 Days
@@ -253,7 +253,7 @@ export default function HomePage() {
             
             <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform hover:transform hover:scale-105">
               <div className="h-48 relative">
-                <img src="/assets/images/destinations/images (3).jpeg" alt="Tanzania" className="h-full w-full object-cover" />
+                <img src="https://cdn.pixabay.com/photo/2025/06/06/14/39/mountain-9644976_960_720.jpg" alt="Tanzania" className="h-full w-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
                   <h4 className="text-white text-xl font-bold p-4">Tanzania</h4>
                 </div>
@@ -440,7 +440,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <h5 className="font-medium">Website</h5>
-                    <p className="text-gray-600">iglotourstravel.com</p>
+                    <p className="text-gray-600">iglotours.com</p>
                   </div>
                 </div>
               </div>
