@@ -17,7 +17,7 @@ export default function HomePage() {
         <div className="container mx-auto py-4 px-4">
           <div className="flex justify-between items-center">
             <a href="/" className="flex items-center space-x-2">
-              <div className="w-40 h-14 relative">
+              <div className="w-50 h-20 relative">
                      <img src={IMAGE_PATHS.logo} 
                   alt="IGLO TOURS & TRAVEL"
                   className="w-full h-full object-contain"
