@@ -394,7 +394,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      s fa-map-marker-a{/* Contact Section */}
+      {/* Contact Section */}
       <section id="contact" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center mb-12">
