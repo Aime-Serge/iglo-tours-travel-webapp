@@ -482,6 +482,9 @@ export default function HomePage() {
             <div>
               <h5 className="text-xl font-bold mb-4">IGLO TOURS & TRAVEL</h5>
               <p className="mb-4">Travel wise and experience the world with us because we are the driving forces who are not afraid to think on a different niche.</p>
+            < div className="text-l font-bold">
+              <Link to="/TermsAndConditions" className="text-white hover:text-yellow-400"><button className="text-center text-color-green border-groove-blue-900 bg-color-green">Terms and Conditions</button></Link>
+              </div>
             </div>
             <div>
               <h5 className="text-xl font-bold mb-4">Quick Links</h5>

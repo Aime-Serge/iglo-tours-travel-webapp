@@ -421,6 +421,52 @@ export default function ToursPage() {
                         <p className="font-bold">Game drives, Boat cruise on Kazinga Channel</p>
                       </div>
                     </div>
+                    <Accordion type="single" collapsible>
+                      <AccordionItem value="day1">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 1:</span>
+                            <span>ENTEBBE - QUEEN ELIZABETH NATIONAL PARK</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Queen Elizabeth National Park. The drive takes about 6-7 hours with scenic views of the Rwenzori Mountains. Upon arrival, check in at your lodge and relax.<br />
+                            <span className="font-medium">Overnight:</span> Lodge of your choice in Queen Elizabeth (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      
+                      <AccordionItem value="day2">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 2:</span>
+                            <span>QUEEN ELIZABETH - GAME DRIVE & BOAT CRUISE</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            Enjoy an early morning game drive in the Kasenyi sector, famous for its large herds of elephants and tree-climbing lions. In the afternoon, take a boat cruise on the Kazinga Channel, which connects Lake Edward and Lake George. This is a great opportunity to see hippos, crocodiles, and a variety of bird species.<br />
+                            <span className="font-medium">Overnight:</span> Lodge of your choice in Queen Elizabeth (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      
+                      <AccordionItem value="day3">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 3:</span>
+                            <span>QUEEN ELIZABETH - ENTEBBE - DEPARTURE</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Entebbe, stopping at the equator for photos and souvenirs. Arrive in Entebbe in time for your departure flight, concluding your short but memorable safari.<br />
+                            <span className="font-medium">Overnight:</span> Not included (BB)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                    </Accordion>
                     <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
                     </Link>
@@ -589,6 +635,65 @@ export default function ToursPage() {
                         <p className="font-bold">Game drives, Bird watching</p>
                       </div>
                     </div>
+                    <Accordion type="single" collapsible>
+                      <AccordionItem value="day1">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 1:</span>
+                            <span>NAIROBI - MAASAI MARA</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart Nairobi for the Maasai Mara National Reserve. Arrive in time for lunch at your lodge. In the afternoon, embark on your first game drive in one of Africa's greatest wildlife reserves. The Maasai Mara is famous for its exceptional population of lions, leopards, cheetahs and the annual wildebeest migration.<br />
+                            <span className="font-medium">Overnight:</span> Lodge/Camp of your choice in Maasai Mara (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      
+                      <AccordionItem value="day2">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 2:</span>
+                            <span>FULL DAY IN MAASAI MARA</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            Spend a full day exploring the Maasai Mara with morning and afternoon game drives. The reserve is home to the "Big Five" and countless other species. Between game drives, you can relax at your lodge or opt for a visit to a traditional Maasai village (optional, at extra cost) to learn about their unique culture and traditions.<br />
+                            <span className="font-medium">Overnight:</span> Lodge/Camp of your choice in Maasai Mara (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day3">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 3:</span>
+                            <span>MAASAI MARA - LAKE NAKURU</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Lake Nakuru National Park, famous for its large flocks of flamingos and diverse wildlife. Arrive in time for lunch at your lodge. In the afternoon, enjoy a game drive in the park, which is also home to rhinos and various bird species.<br />
+                            <span className="font-medium">Overnight:</span> Lodge/Camp of your choice in Lake Nakuru (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day4">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 4:</span>
+                            <span>LAKE NAKURU - NAIROBI</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, enjoy a morning game drive in Lake Nakuru National Park. Afterward, depart for Nairobi, stopping at the equator for photos and souvenirs. Arrive in Nairobi in time for your departure flight, concluding your short but memorable safari.<br />
+                            <span className="font-medium">Overnight:</span> Not included (BB)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                    </Accordion>
                     <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
                     </Link>
@@ -846,6 +951,9 @@ export default function ToursPage() {
               <h5 className="text-xl font-bold mb-4">IGLO TOURS & TRAVEL</h5>
               <p className="mb-4">Travel wise and experience the world with us because we are the driving forces who are not afraid to think on a different niche.</p>
             </div>
+            < div className="text-l font-bold">
+                          <Link to="/TermsAndConditions" className="text-white hover:text-yellow-400"><button className="text-center text-color-green border-groove-blue-900 bg-color-green">Terms and Conditions</button></Link>
+                          </div>
             <div>
               <h5 className="text-xl font-bold mb-4">Quick Links</h5>
               <ul className="space-y-2">

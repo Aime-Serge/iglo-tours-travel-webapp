@@ -30,7 +30,7 @@ export function TourPackageCard({ title, days, destination, description, image }
       <CardContent className="pt-6 flex flex-col h-[calc(100%-12rem)]">
         <h4 className="text-xl font-bold mb-2">{title}</h4>
         <div className="flex items-center space-x-2 mb-3">
-          <span className="text-blue-600">
+          <span className="text-blue-600" >
             <i className="fas fa-map-marker-alt"></i>
           </span>
           <span className="text-sm text-gray-600">{destination}</span>

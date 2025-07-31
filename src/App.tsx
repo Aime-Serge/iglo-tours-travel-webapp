@@ -6,9 +6,9 @@ import Index from './pages/Index';
 import Tours from './pages/Tours';
 import TourInquiryForm from './pages/tour-inquiry';
 import {CarRentalPage} from './pages/car-rental';
+import TermsAndConditions from './pages/TermsAndConditions';
 import NotFound from './pages/NotFound';
 const queryClient = new QueryClient();
-
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
@@ -17,6 +17,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/tour-inquiry" element={<TourInquiryForm />} />
+          <Route path="/TermsAndConditions" element={<TermsAndConditions />} />
           <Route path="/tours" element={<Tours />} />
           <Route path="/car-rental" element={<CarRentalPage />} />
           <Route path="*" element={<NotFound />} />
