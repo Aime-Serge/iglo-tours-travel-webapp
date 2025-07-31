@@ -45,8 +45,8 @@ export default function HomePage() {
       <section className="relative bg-blue-900 text-white h-[500px] flex items-center">
         <div className="absolute inset-0 bg-blue-800 z-0"></div>
         <div className="container mx-auto px-4 z-10 relative">
-          <div className="max-w-3xl">
-            <h1 className="text-5xl font-bold mb-6">Welcome To IGLO TOURS & TRAVEL!</h1>
+          <div className="min-w-3xl text-center ">
+            <h1 className="text-5xl font-bold mb-6 text-center" >Welcome To IGLO TOURS & TRAVEL!</h1>
             <p className="text-xl mb-8">Travel wise and experience the world with us because we are the driving forces who are not afraid to think on a different niche.</p>
             <Link to="/tours">
               <Button className="bg-yellow-500 hover:bg-yellow-600 text-black">Explore Our Tours</Button>

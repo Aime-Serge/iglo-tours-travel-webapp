@@ -134,6 +134,10 @@ export function CarRentalPage() {
               {/* Car Options */}
               <div className="lg:col-span-2">
                 <Tabs defaultValue="cars" onValueChange={setActiveTab} className="w-full">
+                  <div className="flex items-baseline justify-center border-t pt-8">
+                            
+                            <Button variant="outline" className="bg-gradient-to-r from-blue-900/80 to-indigo-900/80">OVERVIEW OF OUR CARS AVAILABLE FOR COMFORTABLE SERVICE RESPONDING TO CLIENT'S REQUEST</Button>
+                          </div>
                   <TabsList className="grid w-full grid-cols-3 h-auto">
                     <TabsTrigger value="cars">Cars</TabsTrigger>
                     <TabsTrigger value="suv">SUVs / 4x4</TabsTrigger>
@@ -176,7 +180,7 @@ export function CarRentalPage() {
                           
                           <div className="flex items-baseline justify-between border-t pt-4">
                             
-                            <Button variant="outline">Select</Button>
+                            {/* <Button variant="outline">Select</Button> */}
                           </div>
                         </CardContent>
                       </Card>
@@ -214,7 +218,7 @@ export function CarRentalPage() {
                           
                           <div className="flex items-baseline justify-between border-t pt-4">
                           
-                            <Button variant="outline">Select</Button>
+                            {/* <Button variant="outline">Select</Button> */}
                           </div>
                         </CardContent>
                       </Card>
@@ -257,7 +261,7 @@ export function CarRentalPage() {
                           
                           <div className="flex items-baseline justify-between border-t pt-4">
                             
-                            <Button variant="outline">Select</Button>
+                           {/* <Button variant="outline">Select</Button> */}
                           </div>
                         </CardContent>
                       </Card>
@@ -295,7 +299,7 @@ export function CarRentalPage() {
                           
                           <div className="flex items-baseline justify-between border-t pt-4">
                           
-                            <Button variant="outline">Select</Button>
+                            {/* <Button variant="outline">Select</Button> */}
                           </div>
                         </CardContent>
                       </Card>
@@ -338,7 +342,7 @@ export function CarRentalPage() {
                           
                           <div className="flex items-baseline justify-between border-t pt-4">
         
-                            <Button variant="outline">Select</Button>
+                        {/* <Button variant="outline">Select</Button> */}
                           </div>
                         </CardContent>
                       </Card>
@@ -376,7 +380,7 @@ export function CarRentalPage() {
                           
                           <div className="flex items-baseline justify-between border-t pt-4">
                             
-                            <Button variant="outline">Select</Button>
+                            {/* <Button variant="outline">Select</Button> */}
                           </div>
                         </CardContent>
                       </Card>

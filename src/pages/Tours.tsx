@@ -170,7 +170,77 @@ export default function ToursPage() {
                           </p>
                         </AccordionContent>
                       </AccordionItem>
-                    </Accordion>
+                      <AccordionItem value="day6">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 6:</span>
+                            <span>NYUNGWE - KIBUYE</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Kibuye. The drive is scenic with beautiful views of Lake Kivu and the surrounding hills. Upon arrival, check-in at your hotel and relax by the lake.<br />
+                            <span className="font-medium">Overnight:</span> Hotel/Resort/Lodge of your choice (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day7">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 7:</span>
+                            <span>KIBUYE - GISENYI</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Gisenyi, another beautiful town on the shores of Lake Kivu. Enjoy the scenic drive and upon arrival, check-in at your hotel. Spend the afternoon relaxing by the lake or exploring the town.<br />
+                            <span className="font-medium">Overnight:</span> Hotel/Resort/Lodge of your choice (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day8">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 8:</span>
+                            <span>GISENYI - MUSANZE</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, drive to Musanze, the gateway to Volcanoes National Park. Upon arrival, check-in at your lodge and prepare for the next day's gorilla trekking adventure.<br />
+                            <span className="font-medium">Overnight:</span> Lodge of your choice (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day9">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 9:</span>
+                            <span>GORILLA TREKKING IN VOLCANOES NATIONAL PARK</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After an early breakfast, head to the park headquarters for a briefing before embarking on your gorilla trekking adventure. Spend an unforgettable hour with these gentle giants in their natural habitat. Return to your lodge for relaxation and reflection on this once-in-a-lifetime experience.<br />
+                            <span className="font-medium">Overnight:</span> Lodge of your choice (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day10">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 10:</span>
+                            <span>MUSANZE - KIGALI - DEPARTURE</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Kigali. Depending on your flight schedule, you may have time for a city tour or visit
+                            </p>
+                            </AccordionContent>
+                            </AccordionItem>
+                          </Accordion>
+
                     <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
                     </Link>
@@ -186,7 +256,7 @@ export default function ToursPage() {
                 <Card className="mb-8 overflow-hidden">
                   <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2018/03/16/11/36/mammal-3230968_640.jpg')" }}></div>
                   <CardContent className="p-6">
-                    <h2 className="text-2xl font-bold mb-2">8 DAY UGANDA CLASSIC SAFARI</h2>
+                    <h2 className="text-2xl font-bold mb-2">8 DAYS UGANDA CLASSIC SAFARI</h2>
                     <p className="text-gray-600 mb-6">
                       Experience the best of Uganda's wildlife on this 8-day safari through diverse national parks. Encounter tree-climbing lions, chimpanzees, and the majestic mountain gorillas in their natural habitat.
                     </p>
@@ -194,7 +264,7 @@ export default function ToursPage() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
                       <div className="bg-blue-50 p-3 rounded-md">
                         <p className="text-sm font-medium text-gray-600">Duration</p>
-                        <p className="font-bold">8 Days</p>2
+                        <p className="font-bold">8 Days</p>
                       </div>
                       <div className="bg-blue-50 p-3 rounded-md">
                         <p className="text-sm font-medium text-gray-600">Destinations</p>
@@ -248,6 +318,76 @@ export default function ToursPage() {
                           <p className="text-gray-700">
                             Begin your day with an early morning game drive on the northern bank of the Nile. Look out for elephants, giraffes, buffaloes, lions, and various antelope species. In the afternoon, enjoy a boat cruise up the Nile to the base of the magnificent Murchison Falls. This provides great opportunities for photographs of hippos, crocodiles, and numerous water birds.<br />
                             <span className="font-medium">Overnight:</span> Lodge of your choice in Murchison Falls (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day4">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 4:</span>
+                            <span>MURCHISON FALLS - QUEEN ELIZABETH NATIONAL PARK</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Queen Elizabeth National Park, known for its diverse ecosystems and abundant wildlife. The drive takes about 7-8 hours with scenic views of the Rwenzori Mountains. Upon arrival, check in at your lodge and relax.<br />
+                            <span className="font-medium">Overnight:</span> Lodge of your choice in Queen Elizabeth (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day5">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 5:</span>
+                            <span>QUEEN ELIZABETH - GAME DRIVE & BOAT CRUISE</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            Enjoy an early morning game drive in the Kasenyi sector, famous for its large herds of elephants and tree-climbing lions. In the afternoon, take a boat cruise on the Kazinga Channel, which connects Lake Edward and Lake George. This is a great opportunity to see hippos, crocodiles, and a variety of bird species.<br />
+                            <span className="font-medium">Overnight:</span> Lodge of your choice in Queen Elizabeth (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day6">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 6:</span>
+                            <span>QUEEN ELIZABETH - BWINDI IMPENETRABLE NATIONAL PARK</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Bwindi Impenetrable National Park, home to the endangered mountain gorillas. The drive takes about 5-6 hours with stunning views of the Virunga Mountains. Upon arrival, check in at your lodge and prepare for the next day's gorilla trekking adventure.<br />
+                            <span className="font-medium">Overnight:</span> Lodge of your choice in Bwindi (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day7">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 7:</span>
+                            <span>GORILLA TREKKING IN BWINDI</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After an early breakfast, head to the park headquarters for a briefing before embarking on your gorilla trekking adventure. Spend an unforgettable hour with these gentle giants in their natural habitat. Return to your lodge for relaxation and reflection on this once-in-a-lifetime experience.<br />
+                            <span className="font-medium">Overnight:</span> Lodge of your choice in Bwindi (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day8">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 8:</span>
+                            <span>BWINDI - ENTEBBE - DEPARTURE</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Entebbe, stopping at the equator for photos and souvenirs. Arrive in Entebbe in time for your departure flight, concluding your unforgettable Ugandan safari.<br />
+                            <span className="font-medium">Overnight:</span> Not included (BB)
                           </p>
                         </AccordionContent>
                       </AccordionItem>
@@ -329,9 +469,7 @@ export default function ToursPage() {
                             After breakfast, depart Nairobi for the Masai Mara National Reserve, arriving in time for lunch at your lodge. In the afternoon, embark on your first game drive in one of Africa's greatest wildlife reserves. The Masai Mara is famous for its exceptional population of lions, leopards, cheetahs and the annual wildebeest migration.<br />
                             <span className="font-medium">Overnight:</span> Lodge/Camp of your choice in Masai Mara (Full board)
                           </p>
-                        <Link to="/tour-inquiry">
-                    <Button className="mt-6 w-full">Enquire About This Tour</Button>
-                    </Link>
+                        
                         </AccordionContent>
                         
                       </AccordionItem>
@@ -350,7 +488,78 @@ export default function ToursPage() {
                           </p>
                         </AccordionContent>
                       </AccordionItem>
+                      <AccordionItem value="day3">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 3:</span>
+                            <span>MASAI MARA - LAKE NAKURU</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Lake Nakuru National Park, famous for its large flocks of flamingos and diverse wildlife. Arrive in time for lunch at your lodge. In the afternoon, enjoy a game drive in the park, which is also home to rhinos and various bird species.<br />
+                            <span className="font-medium">Overnight:</span> Lodge/Camp of your choice in Lake Nakuru (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day4">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 4:</span>
+                            <span>LAKE NAKURU - AMBOSELI</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Amboseli National Park, known for its large herds of elephants and stunning views of Mount Kilimanjaro. Arrive in time for lunch at your lodge. In the afternoon, embark on a game drive to explore the park's diverse wildlife.<br />
+                            <span className="font-medium">Overnight:</span> Lodge/Camp of your choice in Amboseli (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day5">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 5:</span>
+                            <span>FULL DAY IN AMBOSELI</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            Spend a full day in Amboseli with morning and afternoon game drives. The park is famous for its large elephant herds and stunning views of Mount Kilimanjaro. Between game drives, you can relax at your lodge or take a guided nature walk to learn more about the local flora and fauna.<br />
+                            <span className="font-medium">Overnight:</span> Lodge/Camp of your choice in Amboseli (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day6">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 6:</span>
+                            <span>AMBOSELI - NAIROBI</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart Amboseli and drive back to Nairobi. Arrive in Nairobi in time for lunch. You can choose to visit the Giraffe Centre or the David Sheldrick Wildlife Trust to learn about conservation efforts in Kenya. In the evening, enjoy a farewell dinner at a local restaurant.<br />
+                            <span className="font-medium">Overnight:</span> Hotel of your choice in Nairobi (BB)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day7">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 7:</span>
+                            <span>DEPARTURE</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, you will be transferred to Jomo Kenyatta International Airport for your departure flight, concluding your unforgettable Kenyan safari.<br />
+                            <span className="font-medium">Overnight:</span> Not included (BB)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
                     </Accordion>
+
                     <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
                     </Link>     
@@ -445,6 +654,48 @@ export default function ToursPage() {
                           </p>
                         </AccordionContent>
                       </AccordionItem>
+                      <AccordionItem value="day3">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 3:</span>
+                            <span>SERENGETI - NGORONGORO CRATER</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Ngorongoro Crater, a UNESCO World Heritage Site. The drive takes about 2-3 hours. Upon arrival, descend into the crater for a half-day game drive. The crater is home to a high concentration of wildlife, including elephants, lions, and rhinos.<br />
+                            <span className="font-medium">Overnight:</span> Lodge of your choice on the rim of Ngorongoro Crater (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day4">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 4:</span>
+                            <span>NGORONGORO - ARUSHA</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart Ngorongoro and drive back to Arusha. Depending on your flight schedule, you may have time for a visit to a local Maasai village or the Cultural Heritage Centre in Arusha. Enjoy a farewell dinner at a local restaurant before your departure.<br />
+                            <span className="font-medium">Overnight:</span> Hotel of your choice in Arusha (BB)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day5">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 5:</span>
+                            <span>DEPARTURE</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, you will be transferred to Kilimanjaro International Airport for your departure flight, concluding your unforgettable Tanzanian safari.<br />
+                            <span className="font-medium">Overnight:</span> Not included (BB)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
                     </Accordion>
                     <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
@@ -475,6 +726,107 @@ export default function ToursPage() {
                         <p className="font-bold">Game drives, Cultural experiences</p>
                       </div>
                     </div>
+                    <Accordion type="single" collapsible>
+                      <AccordionItem value="day1">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 1:</span>
+                            <span>ARUSHA - TARANGIRE NATIONAL PARK</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart Arusha for Tarangire National Park, known for its large elephant herds and iconic baobab trees. Enjoy a full day of game drives in the park, spotting elephants, lions, giraffes and more.<br />
+                            <span className="font-medium">Overnight:</span> Lodge/Camp of your choice in Tarangire (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      
+                      <AccordionItem value="day2">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 2:</span>
+                            <span>TARANGIRE - LAKE MANYARA NATIONAL PARK</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Lake Manyara National Park, famous for its tree-climbing lions and large flocks of flamingos. Enjoy a half-day game drive in the park before heading to your lodge for lunch.<br />
+                            <span className="font-medium">Overnight:</span> Lodge/Camp of your choice in Lake Manyara (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day3">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 3:</span>
+                            <span>LAKE MANYARA - SERENGETI NATIONAL PARK</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Serengeti National Park, one of Africa's most famous wildlife destinations. Arrive in time for lunch at your lodge and enjoy an afternoon game drive in the Serengeti.<br />
+                            <span className="font-medium">Overnight:</span> Lodge/Tented Camp of your choice in Serengeti (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day4">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 4:</span>
+                            <span>FULL DAY IN SERENGETI</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            Spend a full day exploring the Serengeti with morning and afternoon game drives. The park is home to an incredible concentration of wildlife, including the "Big Five" and numerous predator-prey interactions. Your expert guide will help you spot and identify the diverse wildlife in this iconic ecosystem.<br />
+                            <span className="font-medium">Overnight:</span> Lodge/Tented Camp of your choice in Serengeti (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day5">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 5:</span>
+                            <span>SERENGETI - NGORONGORO CRATER</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart for Ngorongoro Crater, a UNESCO World Heritage Site. The drive takes about 2-3 hours. Upon arrival, descend into the crater for a half-day game drive. The crater is home to a high concentration of wildlife, including elephants, lions, and rhinos.<br />
+                            <span className="font-medium">Overnight:</span> Lodge of your choice on the rim of Ngorongoro Crater (Full board)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day6">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 6:</span>
+                            <span>NGORONGORO - ARUSHA</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, depart Ngorongoro and drive back to Arusha. Depending on your flight schedule, you may have time for a visit to a local Maasai village or the Cultural Heritage Centre in Arusha. Enjoy a farewell dinner at a local restaurant before your departure.<br />
+                            <span className="font-medium">Overnight:</span> Hotel of your choice in Arusha (BB)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                      <AccordionItem value="day7">
+                        <AccordionTrigger>
+                          <div className="flex items-center">
+                            <span className="font-bold mr-2">Day 7:</span>
+                            <span>DEPARTURE</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <p className="text-gray-700">
+                            After breakfast, you will be transferred to Kilimanjaro International Airport for your departure flight, concluding your unforgettable Tanzanian safari.<br />
+                            <span className="font-medium">Overnight:</span> Not included (BB)
+                          </p>
+                        </AccordionContent>
+                      </AccordionItem>
+                    </Accordion>
                     <Link to="/tour-inquiry">
                     <Button className="mt-6 w-full">Enquire About This Tour</Button>
                     </Link>
