@@ -44,7 +44,19 @@ export default function ToursPage() {
 
       {/* Hero Section */}
       <section className="relative bg-blue-900 text-white py-16">
-        <div className="absolute inset-0 bg-cover bg-center opacity-40" style={{ backgroundImage: "url('/assets/images/destinations/images.jpeg')" }}></div>
+        {/* <div className="absolute inset-0 bg-cover bg-center opacity-40" style={{ backgroundImage: "url('/assets/images/destinations/images.jpeg')" }}></div> */}
+        <div 
+        className="
+        absolute 
+        inset-0 
+        bg-cover 
+        bg-center 
+        opacity-40
+         bg-[url('/assets/images/destinations/images.jpeg')]
+         
+        ">
+          
+        </div>
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-indigo-900/80 z-0"></div>
         <div className="container mx-auto px-4 z-10 relative">
           <div className="max-w-3xl mx-auto text-center">
@@ -73,7 +85,16 @@ export default function ToursPage() {
               <div className="max-w-4xl mx-auto space-y-8">
                 {/* 10 DAYS BEST OF RWANDA */}
                 <Card className="mb-8 overflow-hidden">
-                  <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2021/03/03/14/55/rhino-6065480_1280.jpg')" }}></div>
+                  {/*  */}
+                  <div 
+                  className="
+                  h-64 
+                  bg-cover 
+                  bg-center
+                  bg-[url('https://cdn.pixabay.com/photo/2021/03/03/14/55/rhino-6065480_1280.jpg')]
+                  
+                  ">
+                  </div>
                   <CardContent className="p-6">
                     <h2 className="text-2xl font-bold mb-2">10 DAYS BEST OF RWANDA</h2>
                     <p className="text-gray-600 mb-6">
@@ -91,7 +112,7 @@ export default function ToursPage() {
                       </div>
                       <div className="bg-blue-50 p-3 rounded-md">
                         <p className="text-sm font-medium text-gray-600">Activities</p>
-                        <p className="font-bold">Game drives, Chimp trekking, Gorilla trekking</p>
+                        <p className="font-bold">Game drives, Chimp trekking</p>
                       </div>
                     </div>
                     
@@ -254,7 +275,16 @@ export default function ToursPage() {
               <div className="max-w-4xl mx-auto space-y-8">
                 {/* 8 DAY UGANDA CLASSIC SAFARI */}
                 <Card className="mb-8 overflow-hidden">
-                  <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2018/03/16/11/36/mammal-3230968_640.jpg')" }}></div>
+                  {/*  */}
+                  <div 
+                  className="
+                  h-64 
+                  bg-cover 
+                  bg-center
+                  bg-[url('https://cdn.pixabay.com/photo/2018/03/16/11/36/mammal-3230968_640.jpg')]
+                  
+                  ">
+                  </div>
                   <CardContent className="p-6">
                     <h2 className="text-2xl font-bold mb-2">8 DAYS UGANDA CLASSIC SAFARI</h2>
                     <p className="text-gray-600 mb-6">
@@ -272,7 +302,7 @@ export default function ToursPage() {
                       </div>
                       <div className="bg-blue-50 p-3 rounded-md">
                         <p className="text-sm font-medium text-gray-600">Activities</p>
-                        <p className="font-bold">Game drives, Boat cruises, Gorilla trekking, Chimp tracking</p>
+                        <p className="font-bold">Game drives, Boat cruises, Chimp tracking</p>
                       </div>
                     </div>
                     
@@ -400,7 +430,15 @@ export default function ToursPage() {
 
                 {/* 3 DAYS QUEEN ELIZABETH NATIONAL PARK */}
                 <Card className="mb-8 overflow-hidden">
-                  <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('/assets/images/destinations/images (2).jpeg')" }}></div>
+                  {/*  */}
+                  <div 
+                  className="
+                  h-64 
+                  bg-cover 
+                  bg-center
+                  bg-[url('/assets/images/destinations/images (2).jpeg')]
+                  ">
+                  </div>
                   <CardContent className="p-6">
                     <h2 className="text-2xl font-bold mb-2">3 DAYS QUEEN ELIZABETH NATIONAL PARK</h2>
                     <p className="text-gray-600 mb-6">
@@ -480,7 +518,14 @@ export default function ToursPage() {
               <div className="max-w-4xl mx-auto space-y-8">
                 {/* 7 DAYS KENYA SAFARI */}
                 <Card className="mb-8 overflow-hidden">
-                  <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('/assets/images/destinations/download (1).jpeg')" }}></div>
+                  <div 
+                  className="
+                  h-64 
+                  bg-cover 
+                  bg-center
+                  bg-[url('/assets/images/destinations/download (1).jpeg')]
+                  ">
+                  </div>
                   <CardContent className="p-6">
                     <h2 className="text-2xl font-bold mb-2">7 DAYS KENYA SAFARI</h2>
                     <p className="text-gray-600 mb-6">
@@ -614,7 +659,15 @@ export default function ToursPage() {
 
                 {/* 4 DAYS MAASAI MARA & LAKE NAKURU */}
                 <Card className="mb-8 overflow-hidden">
-                  <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('/assets/images/destinations/images (7).jpeg')" }}></div>
+                  {/*  */}
+                  <div 
+                  className="
+                  h-64 
+                  bg-cover 
+                  bg-center
+                  bg-[url('/assets/images/destinations/images (7).jpeg')]
+                  ">
+                  </div>
                   <CardContent className="p-6">
                     <h2 className="text-2xl font-bold mb-2">4 DAYS MAASAI MARA & LAKE NAKURU</h2>
                     <p className="text-gray-600 mb-6">
@@ -707,7 +760,18 @@ export default function ToursPage() {
               <div className="max-w-4xl mx-auto space-y-8">
                 {/* 5 DAYS SERENGETI & NGORONGORO */}
                 <Card className="mb-8 overflow-hidden">
-                  <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2022/09/30/19/42/lion-7490149_1280.jpg')" }}></div>
+                  {/*  */}
+                  {/*<div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2022/09/30/19/42/lion-7490149_1280.jpg')" }}></div>*/}
+                  <div
+  className="
+    h-64
+    bg-cover
+    bg-center
+    bg-[url('https://cdn.pixabay.com/photo/2021/04/18/00/17/coffee-6188830_1280.jpg')]
+  "
+>
+  {/* … */}
+</div>
                   <CardContent className="p-6">
                     <h2 className="text-2xl font-bold mb-2">5 DAYS SERENGETI & NGORONGORO</h2>
                     <p className="text-gray-600 mb-6">
@@ -729,7 +793,7 @@ export default function ToursPage() {
                       </div>
                     </div>
                     
-                    <Accordion type="single" collapsible>
+                  <Accordion type="single" collapsible>
                       <AccordionItem value="day1">
                         <AccordionTrigger>
                           <div className="flex items-center">
@@ -810,7 +874,14 @@ export default function ToursPage() {
 
                 {/* 7 DAYS NORTHERN CIRCUIT SAFARI */}
                 <Card className="mb-8 overflow-hidden">
-                  <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('/assets/images/destinations/download.jpeg')" }}></div>
+                  <div 
+                  className="
+                  h-64 
+                  bg-cover 
+                  bg-center
+                  bg-[url('/assets/images/destinations/download.jpeg')]
+                  " >
+                  </div>
                   <CardContent className="p-6">
                     <h2 className="text-2xl font-bold mb-2">7 DAYS NORTHERN CIRCUIT SAFARI</h2>
                     <p className="text-gray-600 mb-6">

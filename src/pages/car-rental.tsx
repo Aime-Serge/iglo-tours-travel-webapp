@@ -46,7 +46,16 @@ export function CarRentalPage() {
 
       {/* Hero Section */}
       <section className="relative bg-blue-900 text-white py-16">
-        <div className="absolute inset-0 bg-cover bg-center opacity-40" style={{ backgroundImage: "url('/assets/images/LargeSUV.jpg')" }}></div>
+        <div 
+        className="
+        absolute 
+        inset-0 
+        bg-cover 
+        bg-center 
+        opacity-40
+        bg-[url('/assets/images/LargeSUV.jpg')]
+        ">
+        </div>
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-indigo-900/80 z-0"></div>
         <div className="container mx-auto px-4 z-10 relative">
           <div className="max-w-3xl mx-auto text-center">
